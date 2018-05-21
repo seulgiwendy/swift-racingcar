@@ -10,3 +10,8 @@ import Foundation
 
 print("Hello, World!")
 
+print("random integer is \(arc4random_uniform(16))")
+
+let random = Random(bound: 32)
+
+print("random integer from class Random is... \(random.generateRandom())")

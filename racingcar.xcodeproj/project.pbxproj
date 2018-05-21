@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5F1A427C20B281B200055A8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A427B20B281B200055A8A /* main.swift */; };
+		5F1A428420B281EB00055A8A /* Racingcar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A428320B281EB00055A8A /* Racingcar.swift */; };
+		5F1A428620B2828700055A8A /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A428520B2828700055A8A /* Random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		5F1A427820B281B200055A8A /* racingcar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = racingcar; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1A427B20B281B200055A8A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5F1A428320B281EB00055A8A /* Racingcar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racingcar.swift; sourceTree = "<group>"; };
+		5F1A428520B2828700055A8A /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		5F1A427A20B281B200055A8A /* racingcar */ = {
 			isa = PBXGroup;
 			children = (
+				5F1A428220B281DA00055A8A /* models */,
 				5F1A427B20B281B200055A8A /* main.swift */,
 			);
 			path = racingcar;
+			sourceTree = "<group>";
+		};
+		5F1A428220B281DA00055A8A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A428320B281EB00055A8A /* Racingcar.swift */,
+				5F1A428520B2828700055A8A /* Random.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1A428420B281EB00055A8A /* Racingcar.swift in Sources */,
 				5F1A427C20B281B200055A8A /* main.swift in Sources */,
+				5F1A428620B2828700055A8A /* Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
