@@ -17,7 +17,9 @@ class Racingcar {
         self.position = position
     }
     
-    func go() {
-        
+    func go(random: Random) {
+        if random.generateRandom() > 5 {
+            self.position += 1
+        }
     }
 }
